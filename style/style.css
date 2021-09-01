@@ -1,0 +1,33 @@
+body {
+    background-color: lightgrey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ img{
+     width: 400px;
+ }
+ h2{
+   color: Blue;
+   margin-top: 20px;
+ }
+ 
+ ul{
+     list-style: none;
+ }
+ li{
+   font-size: 20px;
+ }
+
+ @media screen and (max-width:1024px) {
+     body{
+         background-color: green;
+     }
+     p{
+         font-size: 48px;
+     }
+     img{
+         display: block;
+         justify-content: center;
+     }
+     
+ }
